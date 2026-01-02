@@ -1,4 +1,5 @@
-window.addEventListener("scroll", function () {
-  const navbar = document.getElementById("navbar");
+const navbar = document.getElementById("navbar");
+
+window.addEventListener("scroll", () => {
   navbar.classList.toggle("scrolled", window.scrollY > 50);
 });
